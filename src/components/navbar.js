@@ -11,13 +11,13 @@ export default () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="row-reverse" />
                 <Navbar.Collapse id="basic-navbar-nav" className="row-reverse">
 
-                    <Form inline >
-                        {/* <FormControl type="text" placeholder="Search" className="mr-sm-2" /> */}
-
-                        <Button variant="outline-primary " >LogIn</Button>
+                    {/* <Form > */}
+                    {/* <FormControl type="text" placeholder="Search" className="mr-sm-2" /> */}
+                    <div className="nav__buttons">
+                        <Button size="lg" variant="outline-primary " >LogIn</Button>
                         <Button variant="outline-primary " className="mx-2">SignUp</Button>
-
-                    </Form>
+                    </div>
+                    {/* </Form> */}
                 </Navbar.Collapse>
             </Navbar>
         </>
